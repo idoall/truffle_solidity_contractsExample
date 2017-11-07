@@ -1,0 +1,179 @@
+{
+  "contractName": "ISmartToken",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "issue",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.17;\n\n/*\n    Standard ISmartyToken interface\n*/\ncontract ISmartToken {\n\n    function issue(address _to, uint256 _value) public;\n}\n",
+  "sourcePath": "/Users/lion/my_project/_eth/test_truffle1/contracts/interfaces/ISmartToken.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/lion/my_project/_eth/test_truffle1/contracts/interfaces/ISmartToken.sol",
+      "exportedSymbols": {
+        "ISmartToken": [
+          1196
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 1188,
+        "name": "PragmaDirective",
+        "src": "0:24:10"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            1196
+          ],
+          "name": "ISmartToken",
+          "scope": 1197
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "constant": false,
+              "implemented": false,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "issue",
+              "payable": false,
+              "scope": 1196,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_to",
+                      "scope": 1195,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 1189,
+                        "name": "ElementaryTypeName",
+                        "src": "111:7:10"
+                      }
+                    ],
+                    "id": 1190,
+                    "name": "VariableDeclaration",
+                    "src": "111:11:10"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_value",
+                      "scope": 1195,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1191,
+                        "name": "ElementaryTypeName",
+                        "src": "124:7:10"
+                      }
+                    ],
+                    "id": 1192,
+                    "name": "VariableDeclaration",
+                    "src": "124:14:10"
+                  }
+                ],
+                "id": 1193,
+                "name": "ParameterList",
+                "src": "110:29:10"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1194,
+                "name": "ParameterList",
+                "src": "146:0:10"
+              }
+            ],
+            "id": 1195,
+            "name": "FunctionDefinition",
+            "src": "96:51:10"
+          }
+        ],
+        "id": 1196,
+        "name": "ContractDefinition",
+        "src": "68:81:10"
+      }
+    ],
+    "id": 1197,
+    "name": "SourceUnit",
+    "src": "0:150:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-05T13:45:27.920Z"
+}
